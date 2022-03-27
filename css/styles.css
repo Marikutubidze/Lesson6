@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(green, black);
+    position: relative;
+}
+
+.portal {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotation 20ms infinite none;  
+    animation: name duration timing-function delay iteration-count direction fill-mode;  
+}
+
+@keyframes rotation {
+    0% {transform: rotate(50deg) translate(-50%, -50%)}
+    20% {transform: rotate(150deg) translate(-50%, -50%)}
+    40% {transform: rotate(200deg) translate(-50%, -50%)}
+    60% {transform: rotate(250deg) translate(-50%, -50%)}
+    80% {transform: rotate(300deg) translate(-50%, -50%)}
+    100% {transform: rotate(360deg) translate(-50%, -50%)}
+}
