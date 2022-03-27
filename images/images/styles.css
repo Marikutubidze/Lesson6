@@ -44,21 +44,19 @@ html, body {
 
 .rick {
     position: absolute;
-    height: 100px;
     top: 12%;
-    left: 14%;
+    left: 12%;
     z-index: 1;
-    animation: rick 3s 2s infinite forwards;
+    animation: rick 3s infinite forwards;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .morty {
     position: absolute;
-    height: 200px;
-    left: 68%;
-    top: 50%;
+    right: 10%;
+    bottom: 10%;
     z-index: 1;
-    animation: morty 5s 1s infinite forwards;
+    animation: morty 5s infinite forwards;
     transition-timing-function: cubic-bezier(0.075, 0.42, 0.165, 1);
 }
 /* portal keyframe animation */
@@ -78,10 +76,9 @@ html, body {
 }
 
 @keyframes rick {
-    0% {
-        height: 100px;
+    0% {height: 100px;
         top: 12%;
-        left: 14%;
+    left: 12%;
     }
     100% {
         height: 250px;
