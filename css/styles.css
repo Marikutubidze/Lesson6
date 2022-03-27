@@ -2,6 +2,8 @@ html, body {
     height: 100%;
 }
 
+/* background gradient */
+
 .background {
     width: 100vw;
     height: 100vh;
@@ -9,24 +11,46 @@ html, body {
     position: relative;
 }
 
-.portal {
+/* portal element */
+
+.portal-one {
     height: 300px;
     width: 300px;
     position: absolute;
-    left: 20%;
-    bottom: 20%;
-    animation: rotation 50ms infinite;  
+    top: 10%;
+    left: 10%;
+    animation: rotation 250ms infinite;  
     border-radius: 80%;
     box-shadow: 0 0 60px 30px #fff,
     0 0 100px 60px rgb(0, 255, 85),
     0 0 140px 90px rgb(10, 107, 51);
 }
 
+.portal-two {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    animation: rotation 250ms infinite;  
+    border-radius: 80%;
+    box-shadow: 0 0 60px 30px #fff,
+    0 0 100px 60px rgb(0, 255, 85),
+    0 0 140px 90px rgb(10, 107, 51);
+}
+
+/* portal keyframe animation */
+
 @keyframes rotation {
-    0% {transform: rotate(50deg)}
-    20% {transform: rotate(150deg)}
-    40% {transform: rotate(200deg)}
-    60% {transform: rotate(250deg)}
-    80% {transform: rotate(300deg)}
+    0% {transform: rotate(0deg)}
+    10% {transform: rotate(36deg)}
+    20% {transform: rotate(72deg)}
+    30% {transform: rotate(108deg)}
+    40% {transform: rotate(144deg)}
+    50% {transform: rotate(180deg)}
+    60% {transform: rotate(216deg)}
+    70% {transform: rotate(252deg)}
+    80% {transform: rotate(288deg)}
+    90% {transform: rotate(324deg)}
     100% {transform: rotate(360deg)}
 }
