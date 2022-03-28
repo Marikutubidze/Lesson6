@@ -33,7 +33,7 @@ html, body {
     width: 600px;
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: 15%;
     animation: rotation 550ms infinite;  
     border-radius: 80%;
     box-shadow: 0 0 60px 30px #fff,
