@@ -33,7 +33,7 @@ html, body {
     position: absolute;
     right: 10%;
     bottom: 10%;
-    animation: rotation 250ms infinite;  
+    animation: rotation 550ms infinite;  
     border-radius: 80%;
     box-shadow: 0 0 60px 30px #fff,
     2px 0 100px 60px rgb(0, 255, 85),
@@ -48,17 +48,17 @@ html, body {
     top: 10%;
     left: 13%;
     z-index: 1;
-    animation: rick 150ms infinite forwards;
+    animation: rick 700ms infinite forwards;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .morty {
     position: absolute;
-    height: 400px;
-    left: 68%;
+    height: 300px;
+    left: 75%;
     top: 50%;
     z-index: 1;
-    animation: morty 250ms infinite forwards;
+    animation: morty 750ms infinite forwards;
     transition-timing-function: cubic-bezier(0.075, 0.42, 0.165, 1);
 }
 /* portal keyframe animation */
@@ -92,13 +92,13 @@ html, body {
 
 @keyframes morty {
     0% {
-        height: 400px;
-        left: 68%;
+        height: 300px;
+        left: 75%;
         top: 50%;
     }
     100% {
-        height: 350px;
-        top: 12%;
-    left: 12%;
+        height: 300px;
+        top: 15%;
+        left: 15%;
     }   
 }
